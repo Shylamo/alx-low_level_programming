@@ -1,18 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* Choosing arandom number and evaluating its value*/
-
-
+/**
+ * main -Entry point
+ *Choosing arandom number and evaluating its value
+ */
 int main(void)
-{
-	int n;
+{	int n;
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;	
-	if( n == 0 )
+	n = rand() - RAND_MAX / 2;
+	if (n == 0)
 		printf("%d is zero \n", n);
-	else if( n > 0 )
+	else if (n > 0)
 		printf("%d is positive \n", n);
 	else
 		printf("%d is negative \n", n);
