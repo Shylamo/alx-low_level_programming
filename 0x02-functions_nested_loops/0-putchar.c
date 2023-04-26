@@ -16,10 +16,10 @@ int _putchar(void)
 		putchar(x[i]);
 	return (0);
 }
-
+/*
 int main(void)
 {
-	_putchar();
+	//_putchar();
 
 	return (0);
-}
+}*/
