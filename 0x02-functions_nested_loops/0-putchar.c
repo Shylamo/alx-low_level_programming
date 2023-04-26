@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include "main.h"
+#include <main.h>
 #include <time.h>
 /*
  * Main : - Entry
  * _putchar :  prints putchar sentence
  * Description : that 's it
+ * return 0;
  */
 
 int _putchar(void)
@@ -16,10 +17,3 @@ int _putchar(void)
 		putchar(x[i]);
 	return (0);
 }
-/*
-int main(void)
-{
-	//_putchar();
-
-	return (0);
-}*/
