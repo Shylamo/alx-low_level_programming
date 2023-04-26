@@ -19,7 +19,7 @@ int _putchar(void)
 
 int main(void)
 {
-	int a = _putchar();
+	_putchar();
 
 	return (0);
 }
