@@ -8,6 +8,5 @@
  */
 
 int main(void) {
-    // your program code here
     return 0;
 }
