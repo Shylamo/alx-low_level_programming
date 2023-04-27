@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /*
  * Main : - Entry
  * _putchar :  prints putchar sentence
@@ -7,6 +8,12 @@
  * return 0;
  */
 
-int main(void) {
-    return 0;
+int _putchar(void)
+{
+	char x[] = "_putchar\n";
+	int i;
+
+	for (i = 0; x [i] != '\0'; i++)
+		putchar(x[i]);
+	return (0);
 }
