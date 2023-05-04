@@ -6,22 +6,22 @@
 /**
  * _strcat - Concatenates two strings and stores the result in a new string.
  *
- * @s1: the fisrt string
- * @s2: the second string
+ * @dest: the fisrt string
+ * @src: the second string
  *
  * Return: Always a pointer
  */
-char *_strcat(char *s1, char *s2)
+char *_strcat(char *dest, char *src)
 {
 	int len1, len2;
 	char *concat;
 
-	len1 = strlen(s1);
-	len2 = strlen(s2);
+	len1 = strlen(dest);
+	len2 = strlen(src);
 	concat = malloc(sizeof(len1 + len2 + 1));
 
-	strcpy(concat, s1);
-	strcat(concat, s2);
+	strcpy(concat, dest);
+	strcat(concat, src);
 
 	return (concat);
 }
