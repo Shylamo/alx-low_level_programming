@@ -2,14 +2,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-/**
- * main - check the code
- * s1 - parameter that describes the first sttring hello
- * s2 - parametre that describes the second word world
- * _strcat - is the function to call
- * Return: Always 0.
- */
 
+/**
+ * _strcat - Concatenates two strings and stores the result in a new string.
+ *
+ * @s1: the fisrt string
+ * @s2: the second string
+ *
+ * Return: Always a pointer
+ */
 char *_strcat(char *s1, char *s2)
 {
 	int len1, len2;
